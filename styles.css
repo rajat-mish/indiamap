@@ -148,3 +148,15 @@ width: auto;
   width: 700px;
   float: right;
 }
+
+.footer{
+  height: 50px;
+  color: white;
+  background-color: #146c94;
+  padding-top:40px ;
+}
+
+.footer p{
+  margin: 0 auto;
+  width: fit-content;
+}
