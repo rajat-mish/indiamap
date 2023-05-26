@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  margin-top: 10px;
+  margin-right: 32px;
+  float: right;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  font-family: sans-serif;
+}
+
+.nav {
+  background-color: #146c94;
+  height: 42px;
+}
+
+.map {
+  float: right;
+  margin: 12px auto;
+}
+
+.map p{
+  margin: 0 auto;
+  width: fit-content;
+  margin-top: -16px;
+  margin-bottom: 16px;
+  border: 1px solid #146c94;
+  padding: 4px 16px;
+  border-radius: 8px;
+  font-family: cursive;
+  box-shadow: 3px 3px #146c94;
+  font-size: large;
+}
+
+.section {
+  width: 800px;
+  height: 800px;
+}
+
+.section h2 {
+  margin: 32px auto;
+  width: fit-content;
+}
+
+.card {
+  width: 350px;
+  height: 280px;
+  border: 2px solid #146c94;
+  margin-left: 30px;
+  margin-top: 16px;
+  float: left;
+  border-radius: 8px;
+  background-color: #146b9414;
+}
+
+.card img {
+  width: 300px;
+ display: block;
+ margin: 0 auto;
+  border-radius: 8px;
+}
+
+.card p {
+  margin: 16px auto;
+  width: fit-content;
+  font-weight: bold;
+}
+
+.card button {
+    display: block;
+  margin: 10px auto;
+  
+  background-color: #146c94;
+  color: white;
+  border-radius: 18px;
+  padding: 8px 16px;
+  font-weight: bold;
+  border: none;
+}
+
+.card button:hover{
+   color: black;
+   background-color: #a1dcf8;
+}
