@@ -160,3 +160,24 @@ width: auto;
   margin: 0 auto;
   width: fit-content;
 }
+
+.location_card {
+  position: fixed;
+  border: 2px solid #146c94;
+  height: 600px;
+  width: 600px;
+  background-color: #d8f4ff;
+  margin-left: 500px;
+  border-radius: 8px;
+  margin-bottom: 64px;
+  visibility: hidden;
+}
+
+.location_card .close {
+  height: 30px;
+  width: 30px;
+  float: right;
+  margin-right: 4px;
+  margin-top: 4px;
+
+}
